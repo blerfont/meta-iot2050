@@ -69,6 +69,9 @@ IOT2050_DEBIAN_DEBUG_PACKAGES = " \
     dnsmasq \
     unzip \
     htop \
+    iptables \
+    gpg \
+    lsb-release \
     "
 
 # wifi support
