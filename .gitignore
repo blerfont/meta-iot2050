@@ -4,3 +4,5 @@ isar/
 /meta-coral
 recipes-core/customizations-base/local.inc
 .config.yaml*
+
+.idea/

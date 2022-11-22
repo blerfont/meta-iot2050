@@ -62,6 +62,13 @@ IOT2050_DEBIAN_DEBUG_PACKAGES = " \
     sudo \
     usb-modeswitch \
     systemd-timesyncd \
+    dosfstools \
+    nginx \
+    cryptsetup \
+    ntpdate \
+    dnsmasq \
+    unzip \
+    htop \
     "
 
 # wifi support
