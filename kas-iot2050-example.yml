@@ -19,6 +19,6 @@ target: iot2050-image-example
 
 local_conf_header:
   root_password: |
-    USERS += "root"
+    USERS += "root barbaraiot"
     USER_root[password] ??= "root"
     USER_root[flags] ??= "clear-text-password force-passwd-change"
