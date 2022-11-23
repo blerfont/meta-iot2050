@@ -22,3 +22,5 @@ local_conf_header:
     USERS += "root barbaraiot"
     USER_root[password] ??= "root"
     USER_root[flags] ??= "clear-text-password force-passwd-change"
+    IMAGE_PREINSTALL += "docker-ce docker-ce-cli containerd.io docker-compose-plugin"
+    THIRD_PARTY_APT_KEYS_append = " https://download.docker.com/linux/debian/gpg;md5sum=1afae06b34a13c1b3d9cb61a26285a15"

@@ -59,6 +59,7 @@ IOT2050_DEBIAN_DEBUG_PACKAGES = " \
     iptables \
     gpg \
     lsb-release \
+    gnupg \
     "
 
 # wifi support
