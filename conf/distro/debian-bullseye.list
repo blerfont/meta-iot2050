@@ -7,4 +7,4 @@ deb-src	http://deb.debian.org/debian-security/ bullseye-security main contrib no
 deb	http://deb.debian.org/debian bullseye-updates main contrib non-free
 deb-src	http://deb.debian.org/debian bullseye-updates main contrib non-free
 
-deb [arch=arm64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/debian bullseye stable
+deb [arch=arm64] https://download.docker.com/linux/debian	buster	stable
