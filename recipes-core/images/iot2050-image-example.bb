@@ -31,7 +31,6 @@ IOT2050_DEBIAN_DEBUG_PACKAGES = " \
     ethtool \
     rt-tests \
     stress-ng \
-    build-essential \
     python3 \
     python-is-python3 \
     gawk \
@@ -39,31 +38,19 @@ IOT2050_DEBIAN_DEBUG_PACKAGES = " \
     wget \
     ca-certificates \
     resolvconf \
-    python3-newt \
-    gdb \
-    gdbserver \
     gpiod \
     network-manager \
     modemmanager \
     ppp \
     isc-dhcp-client \
-    cmake \
-    autoconf \
-    autotools-dev \
-    default-jdk \
     mosquitto \
-    mosquitto-clients \
-    nodejs \
-    npm \
     teamd \
     rsyslog \
     net-tools \
     i2c-tools \
-    sudo \
     usb-modeswitch \
     systemd-timesyncd \
     dosfstools \
-    nginx \
     cryptsetup \
     ntpdate \
     dnsmasq \
@@ -137,9 +124,6 @@ IMAGE_INSTALL += " \
     iot2050-firmware-update \
     tcf-agent \
     mraa \
-    node-red \
-    node-red-gpio \
-    node-red-preinstalled-nodes \
     "
 
 IOT2050_CORAL_SUPPORT ?= "1"
